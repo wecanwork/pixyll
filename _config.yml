@@ -1,8 +1,8 @@
 # Site settings
-title:       Underconstruction
-email:       your_email@example.com
+title:       We can work together
+email:       jaco_otto@yahoo.co.uk
 author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "My personal portfolio website"
 baseurl:     ""
 url:         "http://wecanworktogether.com"
 date_format: "%b %-d, %Y"
