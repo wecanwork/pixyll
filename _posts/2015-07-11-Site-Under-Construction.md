@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Site temporarily under construction
-date:       2015-07-11
+title:      Mind the gap
+date:       2017-05-05
 summary:    My site is currently under construction, in the meanwhile you can view my CV and Portfolio in PDF format
 categories: jekyll pixyll
 ---
