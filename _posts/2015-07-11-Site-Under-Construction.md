@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Hello World
+title:      Site temporarily under construction
 date:       2015-07-11
 summary:    My site is currently under construction, in the meanwhile you can view my CV and Portfolio in PDF format
 categories: jekyll pixyll
