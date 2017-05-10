@@ -8,21 +8,23 @@ layout: default
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
-          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+          <!--<p class="post-meta">{{ post.date | date: site.date_format }}</p>-->
+          <!--<a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
           <p class="post-summary">
             {% if post.summary %}
               {{ post.summary }}
             {% else %}
               {{ post.excerpt }}
             {% endif %}
-          </p>
-        </div>
+          </p>-->
+          <h3 class="h1 post-title">Mind the Gap</h3>
+          <p> My site is currently under construction. While we all wait patiently you can have a look at my <a href="{{ site.baseurl }}/pdf/jaco_otto_cv.pdf" class="post-link">CV</a> 
+          and <a href="{{ site.baseurl }}/pdf/RecentProjects2016.pdf" class="post-link">Portfolio</a> </p>
       {% endfor %}
     </div>
 
-    {% include pagination.html %}
-  {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
-  {% endif %}
+    <!--{% include pagination.html %}-->
+  <!--{% else %}
+    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>-->
+  <!--{% endif %}-->
 </div>
