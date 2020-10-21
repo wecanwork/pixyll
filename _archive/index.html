@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<!-- {% assign posts_count = (paginator.posts | size) %} -->
+<HEAD>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-4006114-1');
+</script>	
+</HEAD>
+
+<div class="home">
+  {% if posts_count > 0 %}
+    <div class="posts">
+      {% for post in paginator.posts %}
+        <div class="post py3">
+          <!--<p class="post-meta">{{ post.date | date: site.date_format }}</p>-->
+          <!--<a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+          <p class="post-summary">
+            {% if post.summary %}
+              {{ post.summary }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </p>-->
+          <h3 class="h1 post-title">Hi, I'm Jaco :)</h3>
+          <p>I’m a London based freelance UI/UX designer.</p>
+  <br>
+  <header class="post-header">
+     
+              <h1 class="h2">What I do:</h1>
+  </header>
+  <article class="post-content">
+
+
+<ul>
+  <li>User Experience & Product design.</li>
+  <li>Information architecture and Wireframing.</li>
+  <li>Prototyping and User testing.</li>
+  <li>Motion, animations and transitions.</li>
+  <li>Figma, Sketch, Principle, Framer, InVision, Axure RP.</li>
+</ul>
+<br>
+<h1 class="h2">My Portfolio</h1>
+  <p>Here is my latest <a href="{{ site.baseurl }}/pdf/RecentProjects2020.pdf" class="post-link">Portfolio</a> and some  <a href="{{ site.baseurl }}/pdf/UX_examplesWIP.pdf" class="post-link">process examples</a>.
+  </p>
+   <br>
+<h1 class="h2">My CV</h1>
+<p>Here's my most up to date <a href="{{ site.baseurl }}/pdf/JacoOtto_CV.pdf" class="post-link">CV</a></p>
+ <br>
+<h1 class="h2">User interface animation examples</h1>
+<p>I love using Principle, After Effects and Framer to bring interface concepts to life. It's the quickest way to illustrate what a product might feel like and behave.</p>
+ <br>
+<video width="100%" height="auto" controls>
+  <source src="{{ site.baseurl }}/video/UI_Animations.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+ <br>
+ <br>
+ <br>
+         
+<!-- <span class="post-meta small"><p> P.S My site is currently under construction. </p></span> -->
+          
+          <br>
+          <br>
+          <br>
+      {% endfor %}
+    </div>
+
+    <!--{% include pagination.html %}-->
+  <!--{% else %}
+    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>-->
+  <!--{% endif %}-->
+</div>
