@@ -2,6 +2,15 @@
 layout: default
 ---
 <!-- {% assign posts_count = (paginator.posts | size) %} -->
+<HEAD>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-4006114-1');
+</script>	
+</HEAD>
 
 <div class="home">
   {% if posts_count > 0 %}
