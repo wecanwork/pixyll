@@ -450,7 +450,34 @@
 
             <div class="col-xl-10 mt-48 sm:mt-32">
               <div class="contact-form -type-1">
-                <form class="row x-gap-40 y-gap-32 js-ajax-form" method="POST" action="contact.php" data-message-success="Your message has been sent! We will reply you as soon as possible." data-message-error="Something went wrong. Please contact us directly at <a href='hello@stukram.com'>hello@stukram.com</a>.">
+                <form class="row x-gap-40 y-gap-32 js-ajax-form" action="https://formspree.io/f/jaco_otto@yahoo.co.uk" method="POST">
+                  <div class="col-lg-6">
+                    <label class="js-input-group">
+                                        Name
+                    <input type="text" name="name">
+                    </label>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <label class="js-input-group">
+                                        Email
+                    <input type="email" name="_replyto">
+                    </label>
+                 </div>
+                  <div class="col-12">
+                    <label class="js-input-group">
+                      Message
+                      <textarea type="text" rows="2" placeholder="Fill in your message"></textarea>
+                      <span class="form__error"></span>
+                    </label>
+                  </div>
+
+                  <div class="col-12">
+                    <input type="submit" class="button -md -black text-white" value="Send">
+                  </div>
+              <!--     <input type="submit" value="Send"> -->
+                </form>
+               <!--  <form class="row x-gap-40 y-gap-32 js-ajax-form" method="POST" action="contact.php" data-message-success="Your message has been sent! We will reply you as soon as possible." data-message-error="Something went wrong. Please contact us directly at <a href='hello@stukram.com'>hello@stukram.com</a>.">
                   <div class="col-lg-6">
                     <label class="js-input-group">
                       Name
@@ -501,7 +528,7 @@
                       Send Message
                     </button>
                   </div>
-                </form>
+                </form> -->
               </div>
             </div>
           </div>
